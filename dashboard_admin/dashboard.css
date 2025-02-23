@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+  font-size: .875rem;
+  background-color: #1A2634; /* Dark background */
+  color: #c68c11; /* Light text color for the body */
+}
+
+.form-label, .table, .table th, .table td, h1, .btn, .form-control, label, p {
+  color: #eac17f !important;}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  background-color: #1A2C44; /* Darker shade of blue for the sidebar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+/* Sidebar sticky styles */
+.sidebar-sticky {
+  height: calc(100vh - 48px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Sidebar link styles */
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #c68c11; /* Change to light color for better contrast */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* 3D text effect */
+}
+
+/* Feather icon color in sidebar */
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #c68c11;
+}
+
+/* Active sidebar link */
+.sidebar .nav-link.active {
+  color: #745700; /* Yellow for active link */
+}
+
+/* Hover effects for sidebar links */
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+/* Sidebar heading */
+.sidebar-heading {
+  font-size: .75rem;
+  color: #897c5f; /* Lighter color for better contrast */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* 3D text effect */
+}
+
+/* Navbar Styles */
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  color: #d6b52d; /* Yellow for brand name */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* 3D text effect */
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 3D shadow effect */
+}
+
+/* Dark form control styles */
+.form-control-dark {
+  color: #c28c17; /* Light text for form inputs */
+  background-color: rgba(0, 0, 0, .1);
+  border-color: rgba(255, 255, 255, .1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 3D shadow effect */
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+/* Custom Class for Additional Elements */
+.tambah {
+  font-size: larger;
+  color: #FFCC00;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); /* 3D text effect */
+}
+
+/* Add custom styles for buttons */
+.btn-outline-primary {
+  border-color: #FFCC00;
+  color: #FFCC00;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 3D shadow effect */
+}
+
+.btn-outline-primary:hover {
+  background-color: #FFCC00;
+  color: #1A2634;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* 3D hover shadow effect */
+}
+
+/* Add button 3D effect */
+button, .btn-primary {
+  background-color: #FFCC00;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 3D shadow effect */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, .btn-primary:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); /* 3D hover shadow effect */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Improved text color for specific sections */
+.home-text, .data-pegawai-text {
+  color: #cd8f0a; /* Set light color for home and data pegawai text */
+  font-weight: 500; /* Ensure text is legible */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* 3D text effect */
+}
+
+/* Alert Styles */
+.alert {
+  background-color: #203E5F;
+  color: #FFCC00; /* Light yellow text for alerts */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 3D shadow effect */
+}
