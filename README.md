@@ -1,4 +1,4 @@
-# Absensi_Pegawai
+# AbWai "Absensi Pegawai"
 Sebuah percobaan aplikasi web untuk melakukan absen pegawai
 
 Untuk menggunakannya
